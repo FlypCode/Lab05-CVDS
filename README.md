@@ -112,15 +112,21 @@ y agregue la seccion build al final del tag project en el archivo pom.xml:
 ~~~
 mvn package
 ~~~
-![](/Img/mvn%20package%20lab05.pngImg/mvn package lab05.png)
+![](Img/mvn%20package%20lab05.png)
 ~~~
 mvn tomcat7:run
 ~~~
-1. Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
+![](Img/mvn%20tomcatrun%20lab05.png)
 
-2. Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando un parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp).
+5. Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
+   
+![](Img/nav%20hello%20lab05.png)
 
-3. Busque el artefacto gson en el repositorio de maven y agregue la dependencia.
+6. Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando un parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp).
+
+![](Img/nav%20hello%20world%20lab05.png)
+7. Busque el artefacto gson en el repositorio de maven y agregue la dependencia.
+
 ~~~
 <dependency>
     <groupId>com.google.code.gson</groupId>
@@ -129,5 +135,5 @@ mvn tomcat7:run
 </dependency>
 ~~~
 8. En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
-
+![](Img/Json%20lab05.png)
 9. Basado en la respuesta que le da el servicio del punto anterior, cree la clase edu.eci.cvds.servlet.model.Todo con un constructor vacío y los métodos getter y setter para las propiedades de los "To Dos" que se encuentran en la url indicada.
