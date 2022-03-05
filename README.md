@@ -106,3 +106,10 @@ y agregue la seccion build al final del tag project en el archivo pom.xml:
    </plugins>
 </build>
 ~~~
+
+3. Revise en el pom.xml para qué puerto TCP/IP está configurado el servidor embebido de Tomcat (ver sección de plugins).
+4. Compile y ejecute la aplicación en el servidor embebido Tomcat, a través de Maven con:
+~~~
+mvn package
+mvn tomcat7:run
+~~~
