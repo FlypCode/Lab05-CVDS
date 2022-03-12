@@ -237,3 +237,6 @@ mvn tomcat7:run
 ![](Img/Json%20lab05.png)
 
 9. Basado en la respuesta que le da el servicio del punto anterior, cree la clase edu.eci.cvds.servlet.model.Todo con un constructor vacío y los métodos getter y setter para las propiedades de los "To Dos" que se encuentran en la url indicada.
+
+![image](https://user-images.githubusercontent.com/65261708/158000217-6065c886-b4a1-4845-8910-2690768054de.png)
+
