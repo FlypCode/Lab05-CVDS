@@ -240,3 +240,10 @@ mvn tomcat7:run
 
 ![image](https://user-images.githubusercontent.com/65261708/158000217-6065c886-b4a1-4845-8910-2690768054de.png)
 
+10. Utilice la siguiente clase para consumir el servicio que se encuentra en la dirección url del punto anterior:
+
+![image](https://user-images.githubusercontent.com/65261708/158000308-3eb93db8-ff36-4d43-985f-13698cedd998.png)
+
+
+
+
