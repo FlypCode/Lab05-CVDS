@@ -76,6 +76,28 @@ DELETE : Esta petición es utilizada para solicitar al servidor que elimine un a
 
 CONNECT : Esta petición es usada para establecer una conexión de red con un servidor web mediante HTTP.
 
+6. Probando otro comando
+
+Comando curl :
+
+curl www.httpbin.org 
+
+![image](https://user-images.githubusercontent.com/65261708/157999238-f9df5baa-1f9d-4311-a11e-70eb1e8be32d.png)
+
+Comando curl -v:
+
+curl -v www.httpbin.org
+
+![image](https://user-images.githubusercontent.com/65261708/157999323-aeae0405-f959-4e31-9436-8fe98deaeab0.png)
+
+
+EL comando curl -v nos permite obtener el encabezado de la solicitud y el número de la respuesta obtenida.El modo detallado -v también hará que curl muestre todos los encabezados que envía y recibe. Permite visualizar la petición GET y el Host realizado para obtener el contenido.
+
+El comando curl -i incluye el encabezado HTTP en la salida. El encabezado HTTP incluye cosas como nombre del servidor, fecha del documento, versión HTTP etc.
+
+El comando curl retorna únicamente el contenido del recurso solicitado.
+
+
 ## PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
 Para esto, cree un proyecto maven nuevo usando el arquetipo de aplicación Web estándar maven-archetype-webapp y realice lo siguiente:
