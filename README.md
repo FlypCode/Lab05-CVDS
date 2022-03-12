@@ -262,3 +262,8 @@ mvn tomcat7:run
 
 ![image](https://user-images.githubusercontent.com/65261708/158003884-1321c7b8-3068-4fca-ba49-7b367e69cc1f.png)
 
+18. En la página anterior, cree un formulario que tenga un campo para ingresar un número (si no ha manejado html antes, revise http://www.w3schools.com/html/ ) y un botón. El formulario debe usar como método ‘POST’, y como acción, la ruta relativa del último servlet creado (es decir la URL pero excluyendo ‘http://localhost:8080/’). Revise este ejemplo de validación de formularios con javascript y agruéguelo a su formulario, de manera que -al momento de hacer ‘submit’- desde el browser se valide que el valor ingresado es un valor numérico.
+
+![image](https://user-images.githubusercontent.com/65261708/158004165-48db73f9-c083-41e5-bb30-fc4cb97d4d7a.png)
+
+En la captura se evidencian los cambios requeridos en el punto 18.
