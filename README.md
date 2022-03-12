@@ -43,6 +43,8 @@ Resultado:
 
 ![image](https://user-images.githubusercontent.com/65261708/157999066-87f8089b-2675-4377-8053-2a1c1b2923bf.png)
 
+Obtuvimos un mensaje de éxito (200) y se nos mostró el contenido en formato html.
+
 ## PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
 Para esto, cree un proyecto maven nuevo usando el arquetipo de aplicación Web estándar maven-archetype-webapp y realice lo siguiente:
