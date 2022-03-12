@@ -252,5 +252,7 @@ mvn tomcat7:run
 
 ![image](https://user-images.githubusercontent.com/65261708/158000431-1e7ecf1f-8bd1-4b14-b5f0-b55e4e44c6a8.png)
 
+13. Teniendo en cuenta las siguientes métodos disponibles en los objetos ServletRequest y ServletResponse recibidos por el método doGet
 
+![image](https://user-images.githubusercontent.com/65261708/158003726-c534026b-2819-43e6-bbd9-e4adb59f901f.png)
 
