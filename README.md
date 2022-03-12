@@ -84,7 +84,7 @@ curl www.httpbin.org
 
 ![image](https://user-images.githubusercontent.com/65261708/157999238-f9df5baa-1f9d-4311-a11e-70eb1e8be32d.png)
 
-Comando curl -v:
+Comando curl -v: 
 
 curl -v www.httpbin.org
 
