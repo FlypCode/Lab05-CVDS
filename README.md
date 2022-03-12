@@ -8,6 +8,10 @@ Comando :
 
 ![image](https://user-images.githubusercontent.com/65261708/157998947-301d7eca-69fd-474c-98d3-792e7adda51d.png)
 
+3. Realizando consultas
+
+GET /sssss/abc.html HTTP/1.0
+Host: escuelaing.edu.co    
 
 ## PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
