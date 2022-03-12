@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <script>
+    function validateForm() {
+    var x = document.forms["form"]["id"].value;
+    if (x != parseInt(x)) {
+        alert("Ingrese un número válido");
+        return false;
+    }
+    }
+    </script>
+    <body>
+        <form name="form" action="/todoServlet" method="post">
+        <p> Número : <input type ="text" name="id"></p>
+        <p> <input type="submit" value="Enviar"> </p>
+        </form>
+    </body>
+</html>
