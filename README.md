@@ -1,5 +1,14 @@
 # Laboratorio 5 - INTRODUCCIÓN A PROYECTOS WEB - 2022-1
 
+## PARTE I - JUGANDO A SER UN CLIENTE HTTP
+
+2. Realizando una conexión síncrona TCP/IP a través de Telnet
+
+Comando :
+
+![image](https://user-images.githubusercontent.com/65261708/157998947-301d7eca-69fd-474c-98d3-792e7adda51d.png)
+
+
 ## PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
 Para esto, cree un proyecto maven nuevo usando el arquetipo de aplicación Web estándar maven-archetype-webapp y realice lo siguiente:
