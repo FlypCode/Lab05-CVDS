@@ -248,3 +248,4 @@ mvn tomcat7:run
 
 ![image](https://user-images.githubusercontent.com/65261708/158000371-1943a5ab-054c-420e-9e5a-26b9b1923c72.png)
 
+12. Para indicar en qué URL el servlet interceptará las peticiones GET, agregue al método la anotación @WebServlet, y en dicha anotación, defina la propiedad urlPatterns, indicando la URL (que usted defina) a la cual se asociará el servlet.
