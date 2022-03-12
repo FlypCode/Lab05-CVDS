@@ -267,3 +267,4 @@ mvn tomcat7:run
 ![image](https://user-images.githubusercontent.com/65261708/158004165-48db73f9-c083-41e5-bb30-fc4cb97d4d7a.png)
 
 En la captura se evidencian los cambios requeridos en el punto 18.
+
