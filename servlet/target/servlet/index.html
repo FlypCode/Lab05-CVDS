@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Start Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<h1>Ingrese ID</h1>
+    <form name="formulario" action="/IDK" onsubmit="validateForm()" method="post">
+        id: <input type="text" name="id">
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        function validateForm() {
+            var x = document.forms["formulario"]["id"].value;
+            if (x != parseInt(x) || 1 > parseInt(x) || 200 < parseInt(x)) {
+                alert("Valor invalido");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
