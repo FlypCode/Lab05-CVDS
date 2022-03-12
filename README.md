@@ -45,6 +45,37 @@ Resultado:
 
 Obtuvimos un mensaje de éxito (200) y se nos mostró el contenido en formato html.
 
+5. Contando palabras
+
+Se copia el contenido html obtenido con CTRL + SHIFT + C.
+
+Se crea y pega el contenido en un archivo llamado contenido.txt
+
+Con el comando wc -c se puede obtener la cantidad de caracteres del contenido del archivo contenido.txt.
+
+![image](https://user-images.githubusercontent.com/65261708/157999170-751dec77-203c-4b0b-bc84-8a0cea95c387.png)
+
+En este caso se obtuvo un total de 3743 caracteres.
+
+
+¿Cuál es la diferencia entre los verbos GET y POST?
+
+Tanto el método GET como POST son protocolos HTPP el cual envían al servidor como petición (request) y reciben una respuesta a dicha solicitud (response).
+
+El concepto GET permite obtener información del servidor. Es decir, traer datos que están almacenadas en el servidor, ya sea una base de datos o archivo al cliente. El concepto POST en cambio es enviar información desde el cliente para que sea procesada y actualice o agregue información en el servidor, como sería la carga o actualización.
+
+¿Qué otros tipos de peticiones existen?
+
+Dentro del prótocolo HTTP se encuentran otras peticiones tales como:
+
+HEAD : La petición HEAD pide una respuesta idéntica a la de una petición GET, pero este solo retorna el encabezado sin el cuerpo de la respuesta.
+
+PUT : La petición PUT es usado para solicitar que el servidor almacene el cuerpo de la entidad en una ubicación específica dada por el URL.
+
+DELETE : Esta petición es utilizada para solicitar al servidor que elimine un archivo en una ubicación específica dada por la URL. Este método elimina un recurso determinado.
+
+CONNECT : Esta petición es usada para establecer una conexión de red con un servidor web mediante HTTP.
+
 ## PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
 Para esto, cree un proyecto maven nuevo usando el arquetipo de aplicación Web estándar maven-archetype-webapp y realice lo siguiente:
