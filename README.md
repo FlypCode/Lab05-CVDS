@@ -256,3 +256,9 @@ mvn tomcat7:run
 
 ![image](https://user-images.githubusercontent.com/65261708/158003726-c534026b-2819-43e6-bbd9-e4adb59f901f.png)
 
+## PARTE III
+
+16. En su servlet, sobreescriba el método doPost, y haga la misma implementación del doGet.
+
+![image](https://user-images.githubusercontent.com/65261708/158003884-1321c7b8-3068-4fca-ba49-7b367e69cc1f.png)
+
