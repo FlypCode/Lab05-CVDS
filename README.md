@@ -244,6 +244,6 @@ mvn tomcat7:run
 
 ![image](https://user-images.githubusercontent.com/65261708/158000308-3eb93db8-ff36-4d43-985f-13698cedd998.png)
 
-
+11. Cree una clase que herede de la clase HttpServlet (similar a SampleServlet), y para la misma sobrescriba el método heredado doGet. Incluya la anotación @Override para verificar –en tiempo de compilación- que efectivamente se esté sobreescribiendo un método de las superclases.
 
 
