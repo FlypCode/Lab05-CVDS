@@ -14,6 +14,35 @@ GET /sssss/abc.html HTTP/1.0
 
 Host: escuelaing.edu.co    
 
+Resultado: 
+
+![image](https://user-images.githubusercontent.com/65261708/157999012-d887f709-20d4-4889-b759-ee7b0e7bc6b8.png)
+
+Obtuvimos el error 301, este error indica que el recurso ha sido movido permanentemente.
+
+¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
+
+Existen los errores 3xx los cuales son errores de redirección, le indican al ciente que los datos han sido transferidos a otra dirección y/o debe intentarlo con una nueva dirección.
+
+Los errores 4xx indican errores que se producen por parte del cliente, como sintaxis incorrecta o datos no encontrados en la dirección indicada.
+
+Los errores 5xx indican errores que se producen por parte del servidor, tales como tiempo de espera excedido o errores internos entre otros.
+
+4. Realizando nueva conexión a telnet
+
+En este punto empleamos una consola de Ubuntu para poder emplear los comandos de conteo de caracteres.
+
+Comando :
+
+GET /html  HTTP/1.1
+Host: httpbin.org
+
+![image](https://user-images.githubusercontent.com/65261708/157999052-8792d73d-abdc-4429-a26e-5890d0e77d03.png)
+
+Resultado:
+
+![image](https://user-images.githubusercontent.com/65261708/157999066-87f8089b-2675-4377-8053-2a1c1b2923bf.png)
+
 ## PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
 Para esto, cree un proyecto maven nuevo usando el arquetipo de aplicación Web estándar maven-archetype-webapp y realice lo siguiente:
