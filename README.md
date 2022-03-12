@@ -11,6 +11,7 @@ Comando :
 3. Realizando consultas
 
 GET /sssss/abc.html HTTP/1.0
+
 Host: escuelaing.edu.co    
 
 ## PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
