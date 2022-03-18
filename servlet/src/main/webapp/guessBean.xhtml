@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<style type = "text/css">
+
+	
+	body {
+		width: 100%;
+		height:100%;
+		font-family: 'Courier';
+		font-size: 24px;
+		color: white;
+	}
+
+	div.a {
+		position: absolute;
+		top: 50%;
+		left: 40%;
+		margin: -150px 0 0 -150px;
+		width:600px;
+		height:350px;
+		background-color: rgba(0,0,225,0.2);
+	
+	}
+
+	.output{
+		color: white;
+		align-items: center;
+		}
+
+
+	.btn-primary {
+		width:130px;
+		height:50px;
+		color: white;
+		font-family: 'Courier';
+		font-size:20px;
+		background-color: #419970;
+		border: 2px solid #f1f2f5; text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+		
+	}
+    .btn-block { width: 100%; display:block; }
+			
+</style>
+	<div class="a">
+		<h:head>
+    		<title>GuessBean</title>
+		</h:head>
+		<body background="Fondo.jpg">
+
+		<h:body>
+		<h1 align="center">GuessBean</h1>
+		<center>
+		<h:form id="GuessBean_form" style="margin-bottom:10px;">
+		<h:panelGrid class="myPanelGrid"  style="text-align:center" >
+			<h:outputLabel value="#{GuessBean.getStatus()}"/>
+			<h:outputLabel value="Number:"/>
+			<h:inputText id="lista" type="text" binding="#{input}" /> 
+			<h:outputLabel value="Score:" />
+			<h:outputLabel value="#{GuessBean.getScore()}" />
+            <button class="btn-primary" value="Restart" update="GuessBean_form" actionListener="#{GuessBean.restart()}">Restart</button>
+            <button class="btn-primary" value="Guess"  update="GuessBean_form" actionListener="#{GuessBean.guess(input.value)}">Guess</button>
+        </h:panelGrid>
+        </h:form>
+        </center>
+		</h:body>
+		</body>
+</div>
+</html>
